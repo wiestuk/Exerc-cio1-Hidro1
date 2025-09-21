@@ -28,8 +28,7 @@ Lpp = 320
 LWL = 325.5
 
 Lwl1 = LWL + 200 #Usei para facilitar a visualização dos gráficos
-Lwl = LWL + 450
-
+Lwl = LWL + 75
 
 
 S = 27194 # Área molhada
@@ -141,7 +140,7 @@ x = np.linspace(0,Lwl, 500)
 xab = np.linspace(Lab,Lwl,500)
 xac = np.linspace(Lac,Lwl,500)
 
-Lambda2 = LWL
+Lambda2 = 75
 k2 = 2*np.pi/Lambda2
 
 Vs2 =np.sqrt((Lambda2*g/(2*np.pi)))
@@ -200,11 +199,4 @@ plt.legend()
 
 print("A velocidade para interferência destrutiva é ",Vs2n,"nós")
 print("O número de Froude para a interfêrencia destrutiva é ",Fr2)
-    
-    
-    
-    
-    
-    
-    
     
